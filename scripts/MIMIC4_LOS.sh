@@ -7,7 +7,7 @@ CUDA_VISIBLE_DEVICES=2 python ../main.py \
     --top_k 2 \
     --label 2 \
     --seq_len 48 \
-    --dropout 0.2 \
+    --dropout 0.1 \
     --task length-of-stay \
     --lr 3e-4 \
     --multilabel False \

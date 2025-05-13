@@ -410,7 +410,7 @@ def load_and_preprocess_data_mimic4(args):
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     encoder_dict = {}
     
-    data_dir = '/home/nathan/Missing_Modality/Trust_MoE/data/mimic4'
+    data_dir = 'data/mimic4'
     train_data_path = os.path.join(data_dir, args.task, 'train_complete_data.pkl')
     test_data_path = os.path.join(data_dir, args.task, 'test_complete_data.pkl')
     
@@ -563,7 +563,7 @@ def load_and_preprocess_data_mimic3(args):
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     encoder_dict = {}
     
-    data_dir = '/home/nathan/Missing_Modality/Data/mimic-iii-processed' #dont modify
+    data_dir = 'data/mimic-iii-processed' #dont modify
     train_data_path = os.path.join(data_dir, args.task, 'train_embedding.pkl')
     test_data_path = os.path.join(data_dir, args.task, 'test_embedding.pkl')
     

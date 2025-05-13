@@ -11,8 +11,8 @@ do
         --top_k 2 \
         --label 3 \
         --seq_len 50 \
-        --dropout 0.2 \
-        --datapath '/home/nathan/Missing_Modality/Trust_MoE/data/CMU-MOSEI/Processed/' \
+        --dropout 0.1 \
+        --datapath 'data/CMU-MOSEI/Processed/' \
         --TokenLevelConf True
 done
 
@@ -28,8 +28,8 @@ do
         --top_k 2 \
         --label 3 \
         --seq_len 50 \
-        --dropout 0.2 \
-        --datapath '/home/nathan/Missing_Modality/Trust_MoE/data/CMU-MOSEI/Processed/' \
+        --dropout 0.1 \
+        --datapath 'data/CMU-MOSEI/Processed/' \
         --TokenLevelConf False
 done
 
@@ -44,8 +44,8 @@ done
 #         --top_k 2 \
 #         --label 3 \
 #         --seq_len 50 \
-#         --dropout 0.2 \
-#         --datapath '/home/nathan/Missing_Modality/Trust_MoE/data/CMU-MOSEI/Processed/' \
+#         --dropout 0.1 \
+#         --datapath 'data/CMU-MOSEI/Processed/' \
 #         --TokenLevelConf False
 # done
 
@@ -61,8 +61,8 @@ done
 #         --top_k 2 \
 #         --label 3 \
 #         --seq_len 50 \
-#         --dropout 0.2 \
-#         --datapath '/home/nathan/Missing_Modality/Trust_MoE/data/CMU-MOSEI/Processed/' \
+#         --dropout 0.1 \
+#         --datapath 'data/CMU-MOSEI/Processed/' \
 #         --TokenLevelConf True
 # done
 

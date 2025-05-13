@@ -11,8 +11,8 @@ do
         --top_k 2 \
         --label 3 \
         --seq_len 50 \
-        --dropout 0.2 \
-        --datapath ../data/CMU-MOSI/Processed/ \
+        --dropout 0.1 \
+        --datapath data/CMU-MOSI/Processed/ \
         --TokenLevelConf True
 done
 
@@ -27,23 +27,8 @@ do
         --top_k 2 \
         --label 3 \
         --seq_len 50 \
-        --dropout 0.2 \
-        --datapath ../data/CMU-MOSI/Processed/ \
+        --dropout 0.1 \
+        --datapath data/CMU-MOSI/Processed/ \
         --TokenLevelConf False
 done
 
-# Full modality: AIN
-# for mod in AN AI IN A N I
-# do
-#     CUDA_VISIBLE_DEVICES=1 python ../main.py \
-#         --modality "$mod" \
-#         --data CMU_MOSI \
-#         --missing_ratio 0.5 \
-#         --batch_size 256 \
-#         --num_experts 8 \
-#         --top_k 2 \
-#         --label 3 \
-#         --seq_len 50 \
-#         --dropout 0.2 \
-
-# done

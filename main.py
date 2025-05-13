@@ -58,7 +58,7 @@ def parse_args():
     parser.add_argument('--label', type=int, default=3) #### 2: in-hospital-mortality, 25: phenotyping, 2: length-of-stay
     parser.add_argument('--multilabel', type=bool, default=False) #### True: phenotyping, False: other tasks
     parser.add_argument('--TokenLevelConf', type=str2bool, default='False')
-    parser.add_argument('--datapath', type=str, default='/home/nathan/Missing_Modality/Trust_MoE/data/CMU-MOSI/Processed/')
+    parser.add_argument('--datapath', type=str, default='data/CMU-MOSI/Processed/')
     parser.add_argument('--missing_ratio', type=float, default=0.5)
     parser.add_argument('--experiment_setting', type=str, default='II')
     return parser.parse_known_args()

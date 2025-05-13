@@ -7,7 +7,7 @@ CUDA_VISIBLE_DEVICES=3 python ../main.py \
     --top_k 2 \
     --label 25 \
     --seq_len 48 \
-    --dropout 0.2 \
+    --dropout 0.1 \
     --task phenotyping \
     --lr 3e-4 \
     --multilabel True \
